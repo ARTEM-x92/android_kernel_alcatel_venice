@@ -1,0 +1,1 @@
+cmd_include/generated/vdso-offsets.h := 	/home/artem_x92/DEVELOPMENT/Tools/ToolChains/Linaro/6.5.0-2018.12/ARM64/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-nm arch/arm64/kernel/vdso/vdso.so.dbg | ./arch/arm64/kernel/vdso/gen_vdso_offsets.sh | LC_ALL=C sort > include/generated/vdso-offsets.h

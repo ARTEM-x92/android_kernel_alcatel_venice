@@ -1,0 +1,2 @@
+kernel/drivers/spi/mediatek/mt6763/spi.ko
+kernel/drivers/spi/mediatek/mt6763/spi-dev.ko

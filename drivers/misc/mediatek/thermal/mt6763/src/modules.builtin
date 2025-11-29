@@ -1,0 +1,4 @@
+kernel/drivers/misc/mediatek/thermal/mt6763/src/mtk_tc.ko
+kernel/drivers/misc/mediatek/thermal/mt6763/src/mtk_pmic_efuse.ko
+kernel/drivers/misc/mediatek/thermal/mt6763/src/mtk_ts_6356buck1.ko
+kernel/drivers/misc/mediatek/thermal/mt6763/src/mtk_ts_6356buck2.ko
