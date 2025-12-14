@@ -538,7 +538,6 @@ pr_err("Lomen 1\n");
 		TPD_RES_X = DISP_GetScreenHeight();
 #endif
 	} else
-    #endif
 	{
 #ifdef CONFIG_CUSTOM_LCM_X
 #ifndef CONFIG_FPGA_EARLY_PORTING
@@ -568,7 +567,7 @@ pr_err("Lomen 1\n");
 #endif
 #endif
 	}
-
+#endif
 	if (2560 == TPD_RES_X)
 		TPD_RES_X = 2048;
 	if (1600 == TPD_RES_Y)
